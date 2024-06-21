@@ -34,8 +34,8 @@ public class GPTCatScreenshotObserver extends ContentObserver {
                 strings.add(path);
                 Log.d(TAG, "Screenshot captured: " + path);
 
-                CompletableFuture.
-                        supplyAsync(() -> GPTCatHttp.sendImageToDiscord(path))
+                CompletableFuture
+                        .supplyAsync(() -> GPTCatHttp.sendImageToDiscord(path))
                         .thenComposeAsync(imageUrl -> CompletableFuture.supplyAsync(() -> GPTCatHttp.sendImageToChatGPT4o(imageUrl)))
                         .thenAcceptAsync(answer -> {
                             Log.d("Answer", answer);
