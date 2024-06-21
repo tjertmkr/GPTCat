@@ -13,8 +13,8 @@ import java.util.Objects;
 import javax.net.ssl.HttpsURLConnection;
 
 public class GPTCatHttp {
-    private static final String DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1249767822725480500/yGIT7sZOVwqFU53vtV8yh3CxNrQhqax-M9isXg9JrMxdCzXCOiZXtOBX-fM8_4wHIRDo";
-    private static final String OPEN_AI_API_KEY = "sk-proj-JbHajdoCNF3eppF6gAYmT3BlbkFJwEZ5hEtxM5y9aYZHTHId";
+    private static final String DISCORD_WEBHOOK_URL = "DISCORD_WEBHOOK_URL";
+    private static final String OPEN_AI_API_KEY = "OPEN_AI_API_KEY";
     private static final String OPEN_AI_API_ENDPOINT = "https://api.openai.com/v1/chat/completions";
     public static String sendImageToDiscord(String filePath) {
         OkHttpClient client = new OkHttpClient();
