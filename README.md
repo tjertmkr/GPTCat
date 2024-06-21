@@ -1,8 +1,8 @@
 <p align="center">
-  <picture>
-    <img src="https://cdn-icons-png.flaticon.com/512/7577/7577239.png" height="128" style="vertical-align: middle; margin-right: 10px;">
-  </picture>
-  <h1 style="display: inline; vertical-align: middle;">GPTCat</h1>
+  <span style="display: inline-flex; align-items: center;">
+    <img src="https://cdn-icons-png.flaticon.com/512/7577/7577239.png" height="128" style="margin-right: 10px;">
+    <h1 style="margin: 0;">GPTCat</h1>
+  </span>
 </p>
 
 ## Getting Started
