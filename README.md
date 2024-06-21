@@ -7,3 +7,7 @@
 </p>
 
 ## Getting Started
+1. Running Android Studio
+2. Modifying DISCORD_WEBHOOK_URL and OPEN_AI_API_KEY Variables in GPTCatHttp.java
+3. Build
+4. Use
