@@ -1,8 +1,9 @@
 <p align="center">
-  <span style="display: inline-flex; align-items: center;">
-    <img src="https://cdn-icons-png.flaticon.com/512/7577/7577239.png" height="128" style="margin-right: 10px;">
-    <h3 style="margin: 0;">GPTCat</h3>
-  </span>
+  <img src="https://cdn-icons-png.flaticon.com/512/12/12160.png" alt="GPTCat logo" width="200" height="165">
+</p>
+<h3 align="center">GPTCat</h3>
+<p align="center">
+  Link the app with ChatGPT-4o to get an answer to the screenshot.
 </p>
 
 ## Getting Started
